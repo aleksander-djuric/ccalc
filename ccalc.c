@@ -11,7 +11,7 @@
 #include <termios.h>
 #include <ctype.h>
 
-#include "complex.h"
+#include "complex/complex.h"
 
 void term_mode (int mode, struct termios *term)
 {
