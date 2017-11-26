@@ -2,6 +2,10 @@
  * ccalc.c
  *
  * Description: Complex Calc Example
+ * Copyright (c) 2017 Aleksander Djuric. All rights reserved.
+ * Distributed under the GNU Lesser General Public License (LGPL).
+ * The complete text of the license can be found in the LICENSE
+ * file included in the distribution.
  *
  */
 

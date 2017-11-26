@@ -3,16 +3,13 @@ AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([ccalc.c])
 AC_CONFIG_HEADERS([config.h])
 
-LT_INIT
-AC_ENABLE_SHARED
-AC_ENABLE_STATIC
+LT_INIT([static])
 
 # Checks for programs.
 AC_PROG_CC
-AC_PROG_RANLIB
-
-# Common compiler flags
-CFLAGS="-Wall -O2"
+AC_PROG_CXX
+AC_PROG_LN_S
+AC_PROG_LIBTOOL
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdlib.h string.h termios.h])
